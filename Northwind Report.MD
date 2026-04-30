@@ -2,8 +2,6 @@
 
 ![My Image](https://github.com/R887645/Northwind-Traders-Global-Sales-Operations-BI-Analysis/blob/main/Northwind_traders%20Analysis%20(6).png?raw=true)
 
-![My Image](https://github.com/R887645/Northwind-Traders-Global-Sales-Operations-BI-Analysis/blob/main/Northwind_report.png?raw=true)
-
 ## Project Overview  
 This project builds an interactive business intelligence solution using the Northwind dataset. The dashboard provides executives with clear insights into global sales performance, product and category intelligence, regional market share, shipping efficiency, and salesforce productivity.
 
