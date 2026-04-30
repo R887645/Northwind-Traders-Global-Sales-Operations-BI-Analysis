@@ -1,5 +1,9 @@
 # Northwind Traders Global Sales & Operations BI
 
+![My Image](https://github.com/R887645/Northwind-Traders-Global-Sales-Operations-BI-Analysis/blob/main/Northwind_traders%20Analysis%20(6).png?raw=true)
+
+![My Image](https://github.com/R887645/Northwind-Traders-Global-Sales-Operations-BI-Analysis/blob/main/Northwind_report.png?raw=true)
+
 ## Project Overview  
 This project builds an interactive business intelligence solution using the Northwind dataset. The dashboard provides executives with clear insights into global sales performance, product and category intelligence, regional market share, shipping efficiency, and salesforce productivity.
 
@@ -26,10 +30,15 @@ I approached the project step‑by‑step:
 - Created a unified fact table by merging Orders and Order Details.  
 - Added derived fields like Product Status for better readability.
 
+![My Image](https://github.com/R887645/Northwind-Traders-Global-Sales-Operations-BI-Analysis/blob/main/northwind_datacleaning.png?raw=true)
+
 ## Data Modelling  
 - Star schema with cross‑filtering between Categories, Products, and Orders.  
 - Calendar table linked to Fact_Orders for time‑based analysis.  
 - Relationships optimized for flexible drilldowns.
+
+![My Image](https://github.com/R887645/Northwind-Traders-Global-Sales-Operations-BI-Analysis/blob/main/Northwind_Data%20modeling.png?raw=true)
+
 
 ## DAX Measures  
 - **Revenue KPIs:** Total Revenue, YoY Growth, Variance.  
@@ -43,11 +52,15 @@ I approached the project step‑by‑step:
    - Seasonal patterns.  
    - Top customers and YoY growth.  
 
+![My Image](https://github.com/R887645/Northwind-Traders-Global-Sales-Operations-BI-Analysis/blob/main/Northwind_Homepage%20(1).png?raw=true)
+
 2. **Product & Category Intelligence**  
    - Top revenue‑driving categories.  
    - Impact of discontinued products.  
    - Discount effects on margins.  
-   - Underperforming vs high‑performing products.  
+   - Underperforming vs high‑performing products. 
+
+![My Image](https://github.com/R887645/Northwind-Traders-Global-Sales-Operations-BI-Analysis/blob/main/Northwind_Product%20andCatgory.png?raw=true)
 
 3. **Regional, Operational & People Performance**  
    - Market share by country.  
@@ -55,6 +68,8 @@ I approached the project step‑by‑step:
    - Shipper comparison (cost vs speed).  
    - Employee sales performance.  
    - Order fulfilment rate.  
+
+![My Image](https://github.com/R887645/Northwind-Traders-Global-Sales-Operations-BI-Analysis/blob/main/Screenshot%202026-04-30%20104419.png?raw=true)
 
 ## Key Insights  
 - Revenue reached **$1.27M** with **53.4% YoY growth**.  
@@ -65,7 +80,7 @@ I approached the project step‑by‑step:
 
 ## Recommendations  
 - Launch mid‑year promotions to address seasonal slowdown.  
-- Reduce dependency on top 3 customers by developing fast‑growing accounts.  
+- Reduce dependency on the top 3 customers by developing fast‑growing accounts.  
 - Replace discontinued Meat & Poultry products to retain category demand.  
 - Cap discounts at 10% for underperforming categories; reserve higher discounts for Beverages/Dairy.  
 - Make Federal Shipping the default carrier to save ~$29K annually.  
@@ -77,11 +92,12 @@ I approached the project step‑by‑step:
 
 ## Tools Used  
 - **Power BI** for modelling, DAX, and dashboard design.  
+- **Power Query** for data cleaning and transformation.  
+- **Excel/CSV** for staging and initial profiling.  
 
 About Me
 I am Abdul‑Azeez Rofiah Kehinde, an E‑commerce Data Analyst specializing in sales, customer behavior, and marketing analytics. 
 I help businesses transform raw transactional data into actionable insights that drive revenue growth, customer retention, and strategic decision‑making. 
-My expertise lies in using tools like Excel, Power Query, SQL, Power BI to clean, model, and visualize data, delivering dashboards that tell a clear business story and empower stakeholders to act with confidence. 
+My expertise lies in using tools such as Excel, Power Query, SQL, and Power BI to clean, model, and visualize data, delivering dashboards that tell a clear business story and empower stakeholders to act with confidence. 
 Let's connect
-- **Power Query** for data cleaning and transformation.  
-- **Excel/CSV** for staging and initial profiling.  
+
